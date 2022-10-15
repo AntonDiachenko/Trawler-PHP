@@ -1,0 +1,271 @@
+@charset "UTF-8";
+
+/* .jumbotron1 {
+    padding: 4rem 2rem;
+    margin-bottom: 2rem;
+    background-color: var(--bs-light);
+    border-radius: .3rem;  
+  } */
+
+.my-nav{
+    padding: 1rem 1rem 1rem 1rem;
+    background-color: rgb(165, 70, 70);
+}
+
+.my-top-nav {
+    padding-top: 1rem;
+}
+
+
+.my-heading-1 {
+    color:black;
+    font-size: 32px;
+}
+
+.my-heading-1:hover{
+    color: antiquewhite;
+}
+
+.my-nav-item{
+    margin: 1rem;
+    color: white;
+}
+
+.body-outer-container{
+    min-height: 40rem;
+    background-image: url(../img/home-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-thumbnail,
+.copyright-container {
+    color: white;
+    text-align: center;
+}
+
+.home-thumbnail{
+    margin-top: 4rem;
+}
+
+.home-thumbnail:hover{
+    opacity: 0.6;
+}
+
+.products-heading-2{
+    font-weight: bold;
+    color: rgb(165, 70, 70);
+    font-size: 40px;
+    text-align: center;
+    margin-top: 4rem;
+
+}
+
+.my-footer-container,
+.copyright-container{
+    margin: 0;
+    padding: 0;
+}
+
+.products-footer-container{
+    background-color: rgb(165, 70, 70); 
+}
+
+.products-copyright-container{
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.color-it{
+    color: white;
+}
+
+.color-it2{
+    color: antiquewhite;
+}
+
+html { 
+    min-height: 100%;
+    position:relative;    
+} 
+
+.my-signup-form,
+.my-login-form {
+    margin-top: 2rem;
+    margin-left: 5rem;
+    max-width: 25rem;
+}
+
+.form-group {
+    margin: 1rem 0 1rem 0;
+}
+
+.logged-out-container,
+.login-container,
+.settings-container {
+    background-image: url(../img/home-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 40rem;
+}
+
+.logged-out-p{
+    font-weight: bold;
+    color: antiquewhite;
+    font-size: 28px;
+    text-align: center;
+    margin: 10rem 0 10rem 0;
+}
+
+.panel-footer,
+#login-register{
+    color: white;
+}
+
+.products-reel,
+.products-lure,
+.cart-container{
+    background-color: antiquewhite;
+}
+
+.cart-table-container {
+    padding: 0;
+    margin: 1rem;
+    margin: 0 auto;
+}
+
+.create_list_container{
+    text-align: center;
+}
+
+.create_list_container p{
+    padding: 0;
+    margin: 0;
+}
+
+#list-name{
+    margin-top: 0;
+    margin-right: 1rem;
+}
+
+.create-list-btn{
+    margin-top: 1.5rem;
+}
+
+.table-favs{
+    padding: 0;
+    margin: 0;
+    margin: 1rem auto;
+    max-width: 50rem;
+}
+
+.table-responsive-sm{
+    margin: 0 5rem 0 5rem;
+}
+
+.products-lure{
+    padding-bottom: 2rem;
+}
+
+.btn-primary {
+    background-color: rgb(165, 70, 70);
+    color: white;
+    border: none;
+    margin-bottom: 2rem;
+}
+
+.btn-primary:hover {
+    background-color: rgb(221, 166, 166);
+    border: none;
+    color: black;
+}
+
+
+.my-top-nav li a {
+    color: white;
+    text-decoration: none;
+    font-size: 26px;
+}
+
+.my-top-nav li a:hover {
+    color: antiquewhite;
+}
+
+.one-product-container{
+    text-align: center;
+    margin: 1rem;
+}
+.cart-container{
+    height: fit-content;  
+}
+
+
+
+.emptyCart-container,
+.noFavourites-container{
+    margin: 2rem 0 2rem 0;
+    text-align: center;
+    font-size: 28px;
+    color: rgb(165, 70, 70);
+}
+
+.btn:hover,
+.btn-block:hover,
+.btn-primary:hover,
+.btn-success:hover{
+    border:none;
+}
+
+.table-cell-favs{
+    font-size: 24px;
+}
+
+.table-favs th,
+.remove-cell,
+.table-cell-favs {
+    text-align: center; 
+    vertical-align: middle; 
+}
+
+.top-top{
+    padding-top: 50px;
+}
+
+.bg-dark {
+    --bs-bg-opacity: 0.5;
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+  }
+
+  .banner{
+    margin-top: 1rem;
+    background-color: rgba(0, 0, 0, 0.4);
+
+  }
+
+
+/* 
+@media (min-width:320px){
+    #autoResize{
+        font-size:12px;
+    }
+}
+@media (min-width:481px){
+    #autoResize{
+        font-size:16px;
+    }
+}
+@media (min-width:641px){
+    #autoResize{
+        font-size:18px;
+    }
+}
+@media (min-width:961px){
+    #autoResize{
+        font-size:20px;
+    }
+}
+@media (min-width:1000px){
+    #autoResize{
+        font-size:26px;
+    }
+}  */
